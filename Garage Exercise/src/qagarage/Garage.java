@@ -20,6 +20,10 @@ public class Garage {
 		return FixGarage.get(index);
 	}
 	
+	public ArrayList<Vehicle> getAll() {
+		return FixGarage;
+	}
+	
 	public boolean removeVehicle(int index) {
 		FixGarage.remove(index);
 		return true;

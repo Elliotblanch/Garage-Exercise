@@ -14,6 +14,8 @@ public class Runner {
 		System.out.println(newGarage.addVehicle(balthazar));
 		System.out.println(newGarage.addVehicle(carl));
 		System.out.println(newGarage.fixVehicle(0));
+		System.out.println(newGarage.fixVehicle(1));
+		System.out.println(newGarage.fixVehicle(2));
 		System.out.println(newGarage.clearQueue());
 		
 		

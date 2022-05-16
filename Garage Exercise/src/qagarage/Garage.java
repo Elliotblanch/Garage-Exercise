@@ -16,6 +16,16 @@ public class Garage {
 		
 	}
 	
+	public Vehicle getVehicle(int index) {
+		return FixGarage.get(index);
+	}
+	
+	public boolean removeVehicle(int index) {
+		FixGarage.remove(index);
+		return true;
+		
+	}
+	
 	public String clearQueue() {
 		FixGarage.clear();
 		return "Queue emptied";
